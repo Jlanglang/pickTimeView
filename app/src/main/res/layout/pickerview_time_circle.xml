@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_ll_content"
+    android:minWidth="320dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_time_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/pickerview_topbar_title"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:id="@+id/timepicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <com.baozi.picktimeview.lib.WheelView
+                android:id="@+id/year"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                />
+
+            <com.baozi.picktimeview.lib.WheelView
+                android:id="@+id/month"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                />
+
+            <com.baozi.picktimeview.lib.WheelView
+                android:id="@+id/day"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <com.baozi.picktimeview.lib.WheelView
+                android:id="@+id/hour"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_hour_mins"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=":"
+                android:textColor="#000"
+                android:textSize="15dp"/>
+
+            <com.baozi.picktimeview.lib.WheelView
+                android:id="@+id/min"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/selecot_button"
+            android:gravity="center"
+            android:text="@string/pickerview_cancel"
+            android:textColor="@color/pickerview_topbar_title"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/selecot_button"
+            android:gravity="center"
+            android:text="@string/pickerview_submit"
+            android:textColor="@color/pickerview_topbar_title"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</LinearLayout>

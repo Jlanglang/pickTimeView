@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.baozi.picktimeview.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_all"
+        android:text="显示所有"
+        style="@style/main_tv_style"/>
+
+    <TextView
+        android:id="@+id/tv_year_month_day"
+        android:text="年月日"
+        style="@style/main_tv_style"/>
+
+    <TextView
+        android:id="@+id/tv_month_day_hour_min"
+        android:text="月日时分"
+        style="@style/main_tv_style"/>
+
+    <TextView
+        android:id="@+id/tv_hour_min"
+        android:text="时分"
+        style="@style/main_tv_style"/>
+
+    <TextView
+        android:id="@+id/tv_year_month"
+        android:text="年月"
+        style="@style/main_tv_style"/>
+    <TextView
+        android:id="@+id/tv_set_canvas_type"
+        android:text="切换为圆形"
+        style="@style/main_tv_style"/>
+</LinearLayout>

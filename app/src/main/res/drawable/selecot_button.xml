@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--第一种方法-->
+    <!--<item android:drawable="@drawable/shape_border_press" android:state_pressed="true" />-->
+    <!--<item android:drawable="@drawable/shape_border_nor" android:state_window_focused="false"/>-->
+
+    <!--第二种方法-->
+    <!--默认情况下是一个带圆角,白色背景,蓝色边框的矩形-->
+    <item android:state_window_focused="false">
+        <shape android:shape="rectangle">
+            <!-- 圆角 -->
+            <corners android:radius="10dp" />
+            <!--填充颜色为白色-->
+            <solid android:color="#09000000" />
+            <!-- 描边 -->
+            <stroke android:width="1px" android:color="@color/light_50" />
+        </shape>
+    </item>
+    <!--单击时是一个带圆角,白色背景,绿色边框的矩形-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!--圆角-->
+            <corners android:radius="10dp" />
+            <solid android:color="@color/light_25" />
+            <!--描边-->
+            <stroke android:width="1px" android:color="@color/light_50" />
+        </shape>
+    </item>
+</selector>
