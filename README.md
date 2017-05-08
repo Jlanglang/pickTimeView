@@ -2,11 +2,11 @@
 # 这是一个仿华为emui的时间选择器
 # 目前支持线条 与 圆形两种样式
 
-![Image text]([https://github.com/Jlanglang/pickTimeView/blob/master/img/46RMF5CW%7D%25BIFR310%5B6KYEY.png])
+![]([pickTimeView/img/46RMF5CW}%BIFR310[6KYEY.png])
 
 # 两种模式:
 #### 一:圆形
-![Image text]([https://github.com/Jlanglang/pickTimeView/blob/master/img/line.png])
+![]([pickTimeView/img/line.png])
 
 #### 二:线形
-![Image text]([https://github.com/Jlanglang/pickTimeView/blob/master/img/round.png])
+![]([https://github.com/Jlanglang/pickTimeView/blob/master/img/round.png])
