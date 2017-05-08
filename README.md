@@ -6,7 +6,7 @@
 
 # 两种模式:
 #### 一:圆形
-![]([pickTimeView/img/line.png])
+![]([https://github.com/Jlanglang/pickTimeView/blob/master/img/round.png?raw=true])
 
 #### 二:线形
-![]([https://github.com/Jlanglang/pickTimeView/blob/master/img/round.png])
+![]([https://github.com/Jlanglang/pickTimeView/blob/master/img/line.png?raw=true])
